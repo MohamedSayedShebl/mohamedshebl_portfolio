@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mohamed Sayed Shebl | Portfolio</title>
+    <meta name="description" content="Mohamed Sayed Shebl - Cairo University Computer Science graduate (GPA 3.27), Flutter Developer & Software Engineer. A+ graduation project Tourmate-AI built with Flutter, FastAPI & PostgreSQL." />
+    <meta property="og:title" content="Mohamed Sayed Shebl | Portfolio" />
+    <meta property="og:description" content="Software Engineer | Flutter Developer | A+ Grad Project" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#6c63ff" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">M<span class="highlight">.</span>Shebl</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="hero">
+    <div class="hero-bg">
+        <div class="gradient-sphere"></div>
+        <div class="gradient-sphere two"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-text" data-aos="fade-up">
+            <span class="hero-badge">🎓 Cairo University · Class of 2026</span>
+            <h1 class="hero-title">
+                Mohamed<br/>
+                <span class="gradient-text">Sayed Shebl</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="typing-container">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="cursor">|</span>
+                </span>
+            </p>
+            <p class="hero-description">
+                Software Engineer | Flutter Developer | FastAPI &amp; PostgreSQL Enthusiast<br/>
+                Building cross-platform experiences with modern tech stacks.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> Get in Touch
+                </a>
+                <a href="MohamedSayedShebl_Resume.pdf" download class="btn btn-outline">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/MohamedSayedShebl" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/mohamedsayedshebl" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:mohamedsayedshebl@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+            <div class="hero-avatar">
+                <div class="avatar-inner">
+                    <span class="avatar-initials">MS</span>
+                </div>
+                <div class="avatar-ring"></div>
+            </div>
+            <div class="floating-card card-1">
+                <i class="fab fa-flutter"></i> Flutter
+            </div>
+            <div class="floating-card card-2">
+                <i class="fas fa-database"></i> PostgreSQL
+            </div>
+            <div class="floating-card card-3">
+                <i class="fab fa-python"></i> FastAPI
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll down</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section class="section" id="about">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">About Me</span>
+            <h2 class="section-title">Who <span class="gradient-text">Am I?</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-card" data-aos="fade-up">
+                <div class="about-icon"><i class="fas fa-user-graduate"></i></div>
+                <h3>Fresh Graduate</h3>
+                <p>Bachelor's in Computer Science from <strong>Cairo University</strong> — Faculty of Computers and Artificial Intelligence, majoring in Information Systems (Graduated July 2026).</p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-icon"><i class="fas fa-star"></i></div>
+                <h3>A+ Grad Project</h3>
+                <p>Graduation project <strong>Tourmate-AI</strong> earned an A+ — built with Flutter on the frontend and FastAPI + PostgreSQL on the backend.</p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>GPA 3.27</h3>
+                <p>Cumulative GPA of <strong>3.27 / 4.0</strong>, with strong foundations in software engineering, data structures, algorithms, and databases.</p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="about-icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Hands-on Experience</h3>
+                <p>60-hour Flutter training at <strong>Egronx</strong>, part-time web development at the <strong>National Water Research Center</strong>, and a Laravel backend internship at the <strong>Housing and Building Research Center</strong>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== EDUCATION ========== -->
+<section class="section" id="education">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Education</span>
+            <h2 class="section-title">Academic <span class="gradient-text">Journey</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="timeline" data-aos="fade-up">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">July 2026</div>
+                    <h3 class="timeline-title">Bachelor of Science in Computer Science</h3>
+                    <p class="timeline-subtitle">Cairo University — Faculty of Computers and Artificial Intelligence</p>
+                    <div class="timeline-details">
+                        <span class="timeline-tag"><i class="fas fa-star"></i> GPA: 3.27 / 4.0</span>
+                        <span class="timeline-tag"><i class="fas fa-layer-group"></i> Major: Information Systems</span>
+                        <span class="timeline-tag"><i class="fas fa-check-circle"></i> Graduated</span>
+                    </div>
+                    <p class="timeline-desc">
+                        Completed coursework in software engineering, data structures, algorithms, databases,
+                        and mobile development. Graduated with a cumulative GPA of 3.27.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Graduation Project</div>
+                    <h3 class="timeline-title">Tourmate-AI — Grade: A+</h3>
+                    <p class="timeline-subtitle">Flutter + FastAPI + PostgreSQL</p>
+                    <div class="timeline-details">
+                        <span class="timeline-tag grade"><i class="fas fa-trophy"></i> A+</span>
+                        <span class="timeline-tag"><i class="fab fa-flutter"></i> Flutter</span>
+                        <span class="timeline-tag"><i class="fab fa-python"></i> FastAPI</span>
+                        <span class="timeline-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                    <p class="timeline-desc">
+                        Built the Flutter frontend for the graduation project while actively contributing
+                        to the backend development using FastAPI and PostgreSQL. The project achieved
+                        the highest grade of A+.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section class="section" id="projects">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Projects</span>
+            <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image" data-gallery="tourmate">
+                    <div class="project-placeholder"><i class="fas fa-route"></i></div>
+                    <img class="gallery-main" alt="Tourmate-AI screenshot" hidden />
+                    <button class="gallery-nav gallery-prev" aria-label="Previous screenshot"><i class="fas fa-chevron-left"></i></button>
+                    <button class="gallery-nav gallery-next" aria-label="Next screenshot"><i class="fas fa-chevron-right"></i></button>
+                    <span class="gallery-counter"></span>
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">LangGraph</span>
+                        <span class="tag grade-tag">Grade: A+</span>
+                    </div>
+                    <h3 class="project-title">Tourmate-AI <span class="project-sub">Graduation Project</span></h3>
+                    <p class="project-desc">
+                        AI-powered personalized travel planning assistant. A full-stack app with a Flutter
+                        mobile frontend, a FastAPI + PostgreSQL backend, Redis sessions, Firebase auth, and a
+                        6-stage LangGraph pipeline (Gemini / Groq) that turns a natural-language chat into a
+                        day-by-day itinerary. Earned the highest grade of A+.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdooMatrix/TourMate-AI" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="https://drive.google.com/file/d/1nPBZl9YgzVzG8No72lfkHHGu7wk196lw/view?usp=sharing" target="_blank" rel="noopener" class="project-link"><i class="fas fa-circle-play"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image" data-gallery="freshmart">
+                    <div class="project-placeholder"><i class="fas fa-cart-shopping"></i></div>
+                    <img class="gallery-main" alt="FreshMart screenshot" hidden />
+                    <button class="gallery-nav gallery-prev" aria-label="Previous screenshot"><i class="fas fa-chevron-left"></i></button>
+                    <button class="gallery-nav gallery-next" aria-label="Next screenshot"><i class="fas fa-chevron-right"></i></button>
+                    <span class="gallery-counter"></span>
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">SQLAlchemy</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <h3 class="project-title">FreshMart <span class="project-sub">E-Commerce App</span></h3>
+                    <p class="project-desc">
+                        Full-stack online grocery store with a Flutter frontend and a FastAPI + SQLAlchemy
+                        backend. Supports four tailored experiences — customer browsing &amp; checkout,
+                        vendor product CRUD, an admin dashboard with sales analytics, and a delivery panel
+                        for order tracking.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AbdooMatrix/FreshMart" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image" data-gallery="univa">
+                    <div class="project-placeholder"><i class="fas fa-graduation-cap"></i></div>
+                    <img class="gallery-main" alt="Univa screenshot" hidden />
+                    <button class="gallery-nav gallery-prev" aria-label="Previous screenshot"><i class="fas fa-chevron-left"></i></button>
+                    <button class="gallery-nav gallery-next" aria-label="Next screenshot"><i class="fas fa-chevron-right"></i></button>
+                    <span class="gallery-counter"></span>
+                </div>
+                <div class="project-body">
+                    <div class="project-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">Laravel</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <h3 class="project-title">Univa <span class="project-sub">Course Management System</span></h3>
+                    <p class="project-desc">
+                        Course management system built with Laravel, PHP and MySQL and a Flutter client.
+                        Completed the Flutter development and the frontend–backend integration, and
+                        contributed to the backend by managing and maintaining its APIs.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/MohamedSayedShebl/UnivaFlutterProjectRepo" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section class="section" id="experience">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Experience</span>
+            <h2 class="section-title">Where I've <span class="gradient-text">Worked</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="timeline" data-aos="fade-up">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025 · 2 Months</div>
+                    <h3 class="timeline-title">Software Engineering Trainee</h3>
+                    <p class="timeline-subtitle">Egronx — 60-Hour Training Program</p>
+                    <div class="timeline-details">
+                        <span class="timeline-tag"><i class="fas fa-clock"></i> 60 Hours</span>
+                        <span class="timeline-tag"><i class="fab fa-flutter"></i> Flutter</span>
+                    </div>
+                    <p class="timeline-desc">
+                        Completed an intensive 60-hour training program focused on software engineering
+                        and Flutter development. Gained hands-on experience building mobile applications,
+                        writing clean and maintainable code, and collaborating on real-world development tasks.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Mar – Oct 2025</div>
+                    <h3 class="timeline-title">Part-Time Web Developer</h3>
+                    <p class="timeline-subtitle">National Water Research Center</p>
+                    <div class="timeline-details">
+                        <span class="timeline-tag"><i class="fas fa-code"></i> Web Development</span>
+                        <span class="timeline-tag"><i class="fas fa-wrench"></i> Maintenance</span>
+                    </div>
+                    <p class="timeline-desc">
+                        Provided website support, maintenance, and bug fixes. Collaborated with the team
+                        to ensure smooth operation and up-to-date web content.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Aug – Oct 2025</div>
+                    <h3 class="timeline-title">Backend Developer Intern (Laravel)</h3>
+                    <p class="timeline-subtitle">Housing and Building Research Center</p>
+                    <div class="timeline-details">
+                        <span class="timeline-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                        <span class="timeline-tag"><i class="fas fa-database"></i> Databases</span>
+                    </div>
+                    <p class="timeline-desc">
+                        Participated in backend development using Laravel. Gained practical experience in
+                        PHP-based web application development and database management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CERTIFICATE ========== -->
+<section class="section" id="certificate">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Certificates</span>
+            <h2 class="section-title">Training <span class="gradient-text">Certificates</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="certificate-list">
+            <div class="certificate-card" data-aos="fade-up">
+                <div class="certificate-preview">
+                    <img src="Mohamed%20Sayed%20-%20Software%20Training%20Program%20Certificate.png" alt="Egronx Training Certificate" />
+                </div>
+                <div class="certificate-info">
+                    <h3>Software Training Program Certificate</h3>
+                    <p>Issued by <strong>Egronx</strong> upon completion of the 60-hour software engineering and Flutter training program.</p>
+                    <a href="Mohamed%20Sayed%20-%20Software%20Training%20Program%20Certificate.png" download class="btn btn-primary btn-sm">
+                        <i class="fas fa-download"></i> Download Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certificate-card" data-aos="fade-up">
+                <div class="certificate-preview certificate-preview-pdf">
+                    <iframe src="DOC091725-09172025124419.pdf" title="PHP Backend Laravel Training Certificate" loading="lazy"></iframe>
+                </div>
+                <div class="certificate-info">
+                    <h3>PHP Backend Laravel Training Certificate</h3>
+                    <p>Issued by the <strong>Housing and Building Research Center</strong> for the PHP backend development training with Laravel, completed alongside the backend developer internship (Aug – Oct 2025).</p>
+                    <a href="DOC091725-09172025124419.pdf" download class="btn btn-primary btn-sm">
+                        <i class="fas fa-download"></i> Download Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section class="section" id="skills">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Skills</span>
+            <h2 class="section-title">Tech <span class="gradient-text">Stack</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category" data-aos="fade-up">
+                <h3 class="skill-category-title"><i class="fas fa-code"></i> Languages</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">C++</span>
+                    <span class="skill-chip">Java</span>
+                    <span class="skill-chip">Python</span>
+                    <span class="skill-chip">PHP</span>
+                    <span class="skill-chip">JavaScript</span>
+                    <span class="skill-chip">HTML</span>
+                    <span class="skill-chip">CSS</span>
+                    <span class="skill-chip">Dart</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="skill-category-title"><i class="fas fa-layer-group"></i> Frameworks</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">Flutter</span>
+                    <span class="skill-chip">FastAPI</span>
+                    <span class="skill-chip">Django</span>
+                    <span class="skill-chip">Laravel</span>
+                    <span class="skill-chip">WordPress</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="skill-category-title"><i class="fas fa-database"></i> Databases</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">PostgreSQL</span>
+                    <span class="skill-chip">MySQL</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-up">
+                <h3 class="skill-category-title"><i class="fas fa-toolbox"></i> Tools &amp; Platforms</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">Git</span>
+                    <span class="skill-chip">GitHub</span>
+                    <span class="skill-chip">Postman</span>
+                    <span class="skill-chip">VS Code</span>
+                    <span class="skill-chip">Android Studio</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="skill-category-title"><i class="fas fa-brain"></i> Core Concepts</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip">Software Engineering</span>
+                    <span class="skill-chip">Data Structures</span>
+                    <span class="skill-chip">Algorithms</span>
+                    <span class="skill-chip">OOP</span>
+                    <span class="skill-chip">REST APIs</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="skill-category-title"><i class="fas fa-comments"></i> Soft Skills &amp; Languages</h3>
+                <div class="skill-chips">
+                    <span class="skill-chip soft">Time Management</span>
+                    <span class="skill-chip soft">Adaptability</span>
+                    <span class="skill-chip soft">Teamwork</span>
+                    <span class="skill-chip soft">Problem-Solving</span>
+                    <span class="skill-chip soft">Critical Thinking</span>
+                    <span class="skill-chip soft">Communication</span>
+                    <span class="skill-chip lang">Arabic — Native</span>
+                    <span class="skill-chip lang">English — Native</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Contact</span>
+            <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="contact-content" data-aos="fade-up">
+            <p class="contact-text">
+                I'm actively looking for opportunities in software engineering and Flutter development.
+                Feel free to reach out!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:mohamedsayedshebl@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>mohamedsayedshebl@gmail.com</span>
+                </a>
+                <a href="tel:01144034639" class="contact-link">
+                    <i class="fas fa-phone"></i>
+                    <span>01144034639</span>
+                </a>
+                <a href="https://github.com/MohamedSayedShebl" target="_blank" rel="noopener" class="contact-link">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/MohamedSayedShebl</span>
+                </a>
+                <a href="https://linkedin.com/in/mohamedsayedshebl" target="_blank" rel="noopener" class="contact-link">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>linkedin.com/in/mohamedsayedshebl</span>
+                </a>
+                <div class="contact-link static">
+                    <i class="fas fa-location-dot"></i>
+                    <span>Giza, Egypt</span>
+                </div>
+                <a href="MohamedSayedShebl_Resume.pdf" download class="contact-link">
+                    <i class="fas fa-file-arrow-down"></i>
+                    <span>Download Resume (PDF)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Mohamed Sayed Shebl. Built with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+    </div>
+</footer>
+
+<!-- ========== LIGHTBOX ========== -->
+<div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-btn lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+    <button class="lightbox-btn lightbox-prev" id="lightboxPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+    <figure class="lightbox-figure">
+        <img id="lightboxImg" src="" alt="Project screenshot" />
+        <figcaption class="lightbox-counter" id="lightboxCounter"></figcaption>
+    </figure>
+    <button class="lightbox-btn lightbox-next" id="lightboxNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+</div>
+
+<!-- ========== SCRIPTS ========== -->
+<script src="script.js"></script>
+</body>
+</html>
